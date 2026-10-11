@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Adivina el numero</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="contenedor-principal">
+
+		<h1>Adivina el número secreto</h1>
+
+		<p>Eres capaz de adivinar el numero que tengo en mente</p>
+
+		<p>He pensado un número del 1 al 10, pero recuerda solo tienes 4 intentos</p>
+		
+		<div class="contenedor-adivinar">
+		
+			<input id="entrada-numero" type="number" min="1" max="10" aria-label="Tu">		
+
+			<button id="adivinar" class="boton-adivinar">Adivinar</button>
+
+		</div>
+
+		<p id="contador-intentos">Te quedan 4 intentos</p>		
+
+		<p id="mensaje"></p>
+
+		<button id="jugar-otra-vez" class="boton-jugar-otra-vez">Jugar otra vez</button> 
+
+	</div>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
